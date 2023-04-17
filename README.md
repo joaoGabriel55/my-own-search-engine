@@ -7,6 +7,8 @@ Start the AI Native Vector Database
 docker compose up -d
 ````
 
+Save your favorite memes into `img/` folder
+
 Run migration and seed
 ````
 npm run migrate & npm run seed
@@ -27,3 +29,4 @@ curl --location 'http://localhost:3000/search' \
 --header 'Content-Type: multipart/form-data' \
 --form 'file=@"PATH/FILENAME"'
 ```
+You can see the search result in `tmp/` folder
