@@ -22,7 +22,7 @@ Example using Postman:
 
 Example curl:
 
-```
+```bash
 curl --location 'http://localhost:3000/search' \
 --header 'Content-Type: multipart/form-data' \
 --form 'file=@"PATH/FILENAME"'
