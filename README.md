@@ -20,7 +20,7 @@ Example using Postman:
 
 ![image](https://user-images.githubusercontent.com/23138717/232352516-e83f24da-5895-41b6-9e10-1e3f47a94379.png)
 
-Example curl:
+Example using curl:
 
 ```bash
 curl --location 'http://localhost:3000/search' \
